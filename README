@@ -1,0 +1,10 @@
+Casbin.js Server Utilities for Casbin
+
+If you are using Casbin.js at your frontend and [Go Casbin](https://github.com/casbin/casbin)as your backend Casbin service, you can install this package at your backend. This package provides a wrapper for generating the user permission, which can be passed to Casbin.js at the frontend.
+
+### Installation
+```
+go get github.com/casbin-js/go-utils/v2
+```
+
+
