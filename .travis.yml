@@ -1,0 +1,15 @@
+language: go
+
+sudo: false
+
+env:
+  - GO111MODULE=on
+
+before_install:
+  - go get github.com/casbin/casbin
+
+go:
+  - "1.14"
+
+script:
+  - go test
